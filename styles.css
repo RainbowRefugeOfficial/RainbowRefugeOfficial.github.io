@@ -1,0 +1,106 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    background-image: url("https://www.flagcolorcodes.com/data/Progress-Pride-Flag.png");
+    background-size: 2000px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    background-color: #FFF;
+  }
+  
+  /* Header and navigation styles */
+  header {
+    background-color: #613915;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 40px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #74D7EE;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: none;
+    color: #FFAFC8;
+  }
+
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: #FFED00;
+  }
+
+  input, textarea {
+    width: 400px;
+    margin-right: 100px;
+  }
+  
+  /* Homepage hero section */
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-top: 5%;
+    padding: 70px 0;
+    color: #732982;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+    margin-bottom: 60px;
+    color: #FFED00;
+  }
+
+  .hero h3 {
+    font-size: 34px;
+    margin: 7%;
+    color: deepskyblue;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #000000;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: #732982;
+    color: #74D7EE;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .btn:hover{
+    background-color: #E40303;
+  }
+  
