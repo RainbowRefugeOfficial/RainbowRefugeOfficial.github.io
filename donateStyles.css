@@ -1,0 +1,97 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    background-image: url("https://www.sexualdiversity.org/images/1/transgender-flag.png");
+    background-size: 2000px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    background-color: #FFF;
+  }
+  
+  /* Header and navigation styles */
+  header {
+    background-color: #5BCEFA;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 40px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: none;
+    color: #F5A9B8;
+  }
+
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  input, textarea {
+    width: 500px;
+    margin-right: 100px;
+  }
+  
+  /* Homepage hero section */
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    padding: 80px 0;
+    color: #ffffff;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #732982;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    color: #000000;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    background-color: #ac3ec2;
+    color: #74D7EE;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .btn:hover{
+    background-color: #2a4caa;
+  }
+  
